@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Namma Santhe Ledger</string>
+    <string name="amount_format">₹%1$.2f</string>
+    <string name="delete_confirm_msg">Delete %1$s\'s entry of %2$s?</string>
+    <string name="unknown_customer">Unknown</string>
+    <string name="no_phone">No phone</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_customers">Customers</string>
+    <string name="nav_add">Add</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Namma Santhe</string>
+    <string name="total_outstanding">Total Outstanding</string>
+    <string name="today_credit">Today\'s Credit</string>
+    <string name="today_payment">Today\'s Payments</string>
+    <string name="active_customers">Active Customers</string>
+    <string name="recent_transactions">Recent Transactions</string>
+
+    <!-- Transaction -->
+    <string name="add_transaction">Add Transaction</string>
+    <string name="select_customer">Select Customer</string>
+    <string name="credit_udari">Credit (Udari)</string>
+    <string name="payment_received">Payment Received</string>
+    <string name="confirm_transaction">Confirm Transaction</string>
+    <string name="transaction_saved">Transaction saved!</string>
+
+    <!-- Customer -->
+    <string name="add_customer">Add Customer</string>
+    <string name="edit_customer">Edit Customer</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="outstanding_balance">Outstanding Balance</string>
+
+    <!-- WhatsApp / Reminders -->
+    <string name="send_reminder">Send Reminder</string>
+    <string name="whatsapp_reminder_kannada">Namaskara %1$s avare, nimma ₹%2$.2f baki ide. Dayavittu settle madi. Dhanyavadagalu.</string>
+    <string name="whatsapp_reminder_hindi">Namaste %1$s ji, aapka ₹%2$.2f baaki hai. Kripya jald se jald clear karein. Dhanyavaad.</string>
+    <string name="whatsapp_reminder_english">Dear %1$s, your outstanding balance is ₹%2$.2f. Kindly settle your dues at the earliest. Thank you!</string>
+</resources>

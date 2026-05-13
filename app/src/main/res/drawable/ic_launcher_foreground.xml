@@ -1,0 +1,139 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!--
+        Premium Namma Santhe Ledger Foreground Icon
+        Features: Bold ₹ rupee symbol with 3D depth effect
+        Safe zone: 24dp inset on each side (content area: 24-84)
+    -->
+
+    <!-- ════════════════════════════════════════════════════════ -->
+    <!-- Shadow layer (offset down-right for 3D depth)          -->
+    <!-- ════════════════════════════════════════════════════════ -->
+
+    <!-- Shadow: Top bar -->
+    <path
+        android:pathData="M39.5,43.5 L68.5,43.5"
+        android:strokeWidth="4.5"
+        android:strokeColor="#20000000"
+        android:strokeLineCap="round" />
+
+    <!-- Shadow: Second bar -->
+    <path
+        android:pathData="M39.5,52.5 L68.5,52.5"
+        android:strokeWidth="4.5"
+        android:strokeColor="#20000000"
+        android:strokeLineCap="round" />
+
+    <!-- Shadow: Rupee curve -->
+    <path
+        android:pathData="M55.5,43.5 Q66.5,43.5 66.5,52.5 Q66.5,60.5 55.5,62.5"
+        android:strokeWidth="4.2"
+        android:fillColor="#00000000"
+        android:strokeColor="#20000000"
+        android:strokeLineCap="round" />
+
+    <!-- Shadow: Diagonal leg -->
+    <path
+        android:pathData="M48.5,52.5 L65.5,74.5"
+        android:strokeWidth="4.5"
+        android:strokeColor="#20000000"
+        android:strokeLineCap="round" />
+
+    <!-- ════════════════════════════════════════════════════════ -->
+    <!-- Main Rupee Symbol ₹ (white with subtle gold tint)      -->
+    <!-- ════════════════════════════════════════════════════════ -->
+
+    <!-- Top horizontal bar ═══ -->
+    <path
+        android:pathData="M38,42 L67,42"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="38" android:startY="42"
+                android:endX="67" android:endY="42">
+                <item android:offset="0.0" android:color="#FFFFFFFF" />
+                <item android:offset="0.5" android:color="#FFFFFDE8" />
+                <item android:offset="1.0" android:color="#FFFFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Second horizontal bar ═══ -->
+    <path
+        android:pathData="M38,51 L67,51"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="38" android:startY="51"
+                android:endX="67" android:endY="51">
+                <item android:offset="0.0" android:color="#FFFFFFFF" />
+                <item android:offset="0.5" android:color="#FFFFFDE8" />
+                <item android:offset="1.0" android:color="#FFFFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Rupee curve (the distinctive ₹ shape) -->
+    <path
+        android:pathData="M54,42 Q65,42 65,51 Q65,59 54,61"
+        android:strokeWidth="4.2"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="54" android:startY="42"
+                android:endX="54" android:endY="61">
+                <item android:offset="0.0" android:color="#FFFFFFFF" />
+                <item android:offset="0.5" android:color="#FFFFFDE8" />
+                <item android:offset="1.0" android:color="#FFFFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Diagonal leg (the bottom stroke of ₹) -->
+    <path
+        android:pathData="M47,51 L64,73"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="47" android:startY="51"
+                android:endX="64" android:endY="73">
+                <item android:offset="0.0" android:color="#FFFFFFFF" />
+                <item android:offset="0.4" android:color="#FFFFFDE8" />
+                <item android:offset="1.0" android:color="#EEEEEEEE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- ════════════════════════════════════════════════════════ -->
+    <!-- Highlight layer (subtle top-light for 3D emboss)       -->
+    <!-- ════════════════════════════════════════════════════════ -->
+
+    <!-- Highlight: Top bar (thin bright line on top edge) -->
+    <path
+        android:pathData="M38,40.8 L67,40.8"
+        android:strokeWidth="0.8"
+        android:strokeColor="#30FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Highlight: Second bar -->
+    <path
+        android:pathData="M38,49.8 L67,49.8"
+        android:strokeWidth="0.8"
+        android:strokeColor="#30FFFFFF"
+        android:strokeLineCap="round" />
+
+</vector>

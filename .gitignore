@@ -1,0 +1,40 @@
+# ── Build outputs ──────────────────────────────────────────
+*.iml
+.gradle/
+build/
+/build
+/app/build
+/captures
+.externalNativeBuild/
+.cxx/
+
+# ── IDE / Editor ──────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── OS generated ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Local config (secrets, SDK paths) ─────────────────────
+local.properties
+
+# ── Firebase config (contains API keys - DO NOT COMMIT) ───
+app/google-services.json
+
+# ── Kotlin / KSP ─────────────────────────────────────────
+.kotlin/
+
+# ── Signing keys ──────────────────────────────────────────
+*.jks
+*.keystore
+signing.properties
+
+# ── Temp / generated scripts ─────────────────────────────
+generate_icons.py
+cleanup_icons.js
+ICON_README.md
