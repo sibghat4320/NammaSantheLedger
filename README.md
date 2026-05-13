@@ -167,7 +167,7 @@ com.example.nammasantheledger/
 
 ## 👤 Author
 
-Developed by **Arshid**
+Developed by **Muhammad Sibghatullah**
 
 ---
 
